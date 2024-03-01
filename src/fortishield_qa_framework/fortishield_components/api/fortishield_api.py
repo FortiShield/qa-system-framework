@@ -12,7 +12,7 @@ from base64 import b64encode
 from http import HTTPStatus
 import requests
 
-from fortishield_qa_framework.fortishield_components.api.fortishield_api_request import FortishieldAPIRequest
+from fortishield_qa_framework.fortishield.github.ioponents.api.fortishield_api_request import FortishieldAPIRequest
 from fortishield_qa_framework.generic_modules.request.request import GetRequest
 from fortishield_qa_framework.generic_modules.exceptions.exceptions import ConnectionError, RuntimeError
 

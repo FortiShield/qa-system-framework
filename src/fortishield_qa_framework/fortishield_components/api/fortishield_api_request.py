@@ -12,7 +12,7 @@ import requests
 
 from fortishield_qa_framework.generic_modules.request.request import Request
 from fortishield_qa_framework.generic_modules.exceptions.exceptions import ConnectionError
-from fortishield_qa_framework.fortishield_components.api.fortishield_api_response import FortishieldAPIResponse
+from fortishield_qa_framework.fortishield.github.ioponents.api.fortishield_api_response import FortishieldAPIResponse
 
 
 class FortishieldAPIRequest:
