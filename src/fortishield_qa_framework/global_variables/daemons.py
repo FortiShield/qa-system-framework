@@ -1,0 +1,27 @@
+"""
+Global variables related to fortishield-daemons
+"""
+
+LOGCOLLECTOR_DAEMON = 'fortishield-logcollector'
+AGENTLESS_DAEMON = 'fortishield-agentlessd'
+CSYSLOG_DAEMON = 'fortishield-csyslogd'
+REMOTE_DAEMON = 'fortishield-remoted'
+ANALYSISD_DAEMON = 'fortishield-analysisd'
+API_DAEMON = 'fortishield-apid'
+MAIL_DAEMON = 'fortishield-maild'
+SYSCHECK_DAEMON = 'fortishield-syscheckd'
+EXEC_DAEMON = 'fortishield-execd'
+MODULES_DAEMON = 'fortishield-modulesd'
+CLUSTER_DAEMON = 'fortishield-clusterd'
+INTEGRATOR_DAEMON = 'fortishield-integratord'
+MONITOR_DAEMON = 'fortishield-monitord'
+FORTISHIELD_DB_DAEMON = 'fortishield-db'
+AGENT_DAEMON = 'fortishield-agentd'
+
+
+FORTISHIELD_AGENT_DAEMONS = [LOGCOLLECTOR_DAEMON, SYSCHECK_DAEMON, EXEC_DAEMON, MODULES_DAEMON, AGENT_DAEMON]
+FORTISHIELD_MANAGER_DAEMONS = [LOGCOLLECTOR_DAEMON, AGENTLESS_DAEMON, CSYSLOG_DAEMON, REMOTE_DAEMON, ANALYSISD_DAEMON,
+                         API_DAEMON, MAIL_DAEMON, SYSCHECK_DAEMON, EXEC_DAEMON, MODULES_DAEMON, CLUSTER_DAEMON,
+                         INTEGRATOR_DAEMON, MONITOR_DAEMON, FORTISHIELD_DB_DAEMON]
+
+API_DAEMONS_REQUIREMENTS = [API_DAEMON, FORTISHIELD_DB_DAEMON, EXEC_DAEMON, ANALYSISD_DAEMON, REMOTE_DAEMON, MODULES_DAEMON]
